@@ -1,0 +1,66 @@
+!!omap
+
+- $large$common$timetable: true
+- $common$timetable: &common-timetable !!omap
+  - 2016-03-28: [         4]
+  - 2016-03-29: [1, 2, 3]
+  - 2016-03-30: [1, 2, 3]
+  - 2016-03-31: [1, 2, 3]
+  - 2016-04-01: [1, 2   ]
+  - 2016-04-02: [1, 2, 3]
+  - 2016-04-03: [1, 2   ]
+  - 2016-04-04: [1, 2, 3]
+  - 2016-04-05: [1, 2, 3]
+  - 2016-04-06: [1, 2, 3]
+  - 2016-04-07: [1, 2, 3]
+  - 2016-04-08: [1, 2, 3]
+  - 2016-04-09: [1, 2   ]
+
+- $large$groups[g9r2]: true
+- $groups[g9r2]:
+    name: 9-2
+    timetable: *common-timetable
+
+- $large$groups[g9r1]: true
+- $groups[g9r1]:
+    name: 9-1
+    timetable: *common-timetable
+
+- $large$groups[g10r2]: true
+- $groups[g10r2]:
+    name: 10-2
+    timetable: *common-timetable
+
+- $large$groups[g10r1]: true
+- $groups[g10r1]:
+    name: 10-1
+    timetable: *common-timetable
+
+- $large$groups[g11r2]: true
+- $groups[g11r2]:
+    name: 11-2
+    timetable: *common-timetable
+
+- $large$groups[g11r1]: true
+- $groups[g11r1]:
+    name: 11-1
+    timetable: *common-timetable
+
+- $large$groups[gX]: true
+- $groups[gX]:
+    name: X
+    timetable: !!omap
+    - 2016-03-28: [         4]
+    - 2016-03-29: [1, 2, 3]
+    - 2016-03-30: [1, 2, 3]
+    - 2016-03-31: [1, 2, 3]
+    - 2016-04-01: [1, 2   ]
+    - 2016-04-02: [1, 2, 3]
+    - 2016-04-03: [1, 2, 3]
+    - 2016-04-04: [1, 2, 3]
+    - 2016-04-05: [1, 2, 3]
+    - 2016-04-06: [1, 2, 3]
+    - 2016-04-07: [1, 2, 3]
+    - 2016-04-08: [1, 2, 3]
+    - 2016-04-09: [1, 2   ]
+

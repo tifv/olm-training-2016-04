@@ -18,37 +18,37 @@
 
 - $large$groups[g9r2]: true
 - $groups[g9r2]:
-    name: 9-2
+    name: Гвозди
     timetable: *common-timetable
 
 - $large$groups[g9r1]: true
 - $groups[g9r1]:
-    name: 9-1
+    name: Шурупы
     timetable: *common-timetable
 
 - $large$groups[g10r2]: true
 - $groups[g10r2]:
-    name: 10-2
+    name: Трубы
     timetable: *common-timetable
 
 - $large$groups[g10r1]: true
 - $groups[g10r1]:
-    name: 10-1
+    name: Провода
     timetable: *common-timetable
 
 - $large$groups[g11r2]: true
 - $groups[g11r2]:
-    name: 11-2
+    name: Кирпичи
     timetable: *common-timetable
 
 - $large$groups[g11r1]: true
 - $groups[g11r1]:
-    name: 11-1
+    name: Бетон
     timetable: *common-timetable
 
 - $large$groups[gX]: true
 - $groups[gX]:
-    name: X
+    name: Брёвна
     timetable: !!omap
     - 2016-03-28: [         4]
     - 2016-03-29: [1, 2, 3]

@@ -44,49 +44,56 @@ Integral:
 
   g9r2:
     $matter:
-    - verbatim: \chapter{9-2}
+    - verbatim: \chapter{Гвозди (9-2)}
+      condition: {not: no-chapter}
     - verbatim: \begin{jeolmlabelspace}{g9r2}
     - delegate: /[g9r2]
     - verbatim: \end{jeolmlabelspace}
 
   g9r1:
     $matter:
-    - verbatim: \chapter{9-1}
+    - verbatim: \chapter{Шурупы (9-1)}
+      condition: {not: no-chapter}
     - verbatim: \begin{jeolmlabelspace}{g9r1}
     - delegate: /[g9r1]
     - verbatim: \end{jeolmlabelspace}
 
   g10r2:
     $matter:
-    - verbatim: \chapter{10-2}
+    - verbatim: \chapter{Трубы (10-2)}
+      condition: {not: no-chapter}
     - verbatim: \begin{jeolmlabelspace}{g10r2}
     - delegate: /[g10r2]
     - verbatim: \end{jeolmlabelspace}
 
   g10r1:
     $matter:
-    - verbatim: \chapter{10-1}
+    - verbatim: \chapter{Провода (10-1)}
+      condition: {not: no-chapter}
     - verbatim: \begin{jeolmlabelspace}{g10r1}
     - delegate: /[g10r1]
     - verbatim: \end{jeolmlabelspace}
 
   g11r2:
     $matter:
-    - verbatim: \chapter{11-2}
+    - verbatim: \chapter{Кирпичи (11-2)}
+      condition: {not: no-chapter}
     - verbatim: \begin{jeolmlabelspace}{g11r2}
     - delegate: /[g11r2]
     - verbatim: \end{jeolmlabelspace}
 
   g11r1:
     $matter:
-    - verbatim: \chapter{11-1}
+    - verbatim: \chapter{Бетон (11-1)}
+      condition: {not: no-chapter}
     - verbatim: \begin{jeolmlabelspace}{g11r1}
     - delegate: /[g11r1]
     - verbatim: \end{jeolmlabelspace}
 
   gX:
     $matter:
-    - verbatim: \chapter{X}
+    - verbatim: \chapter{Брёвна (X)}
+      condition: {not: no-chapter}
     - verbatim: \begin{jeolmlabelspace}{gX}
     - delegate: /[gX]
     - verbatim: \end{jeolmlabelspace}
